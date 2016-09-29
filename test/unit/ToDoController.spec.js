@@ -29,4 +29,10 @@ describe('ToDoController', function() {
     expect(ctrl.todos.length).toEqual(initialCount - 1);
   });
 
+  it('changes status of task from false to true', function() {
+    var todo = {text: "NewTodo", completed: false};
+    ctrl.complete
+    expect(todo()).toEqual(completed: true);
+  });
+
 });
