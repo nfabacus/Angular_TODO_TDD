@@ -31,7 +31,7 @@ describe('ToDoController', function() {
 
   it('changes status of task from false to true', function() {
     var todo = {text: "NewTodo", completed: false};
-    ctrl.complete
+    ctrl.complete();
     expect(todo()).toEqual(completed: true);
   });
 
